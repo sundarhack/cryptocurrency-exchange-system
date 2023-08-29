@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html,
+body {
+    height: 100%;
+    overflow-x: hidden;
+    background-color: #111827;
+}
+
+#__next {
+
+    height: 100%;
+
+}
+
+
+.why_box {
+
+    background-color: #1f2937;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    margin: 20px
+}
+
+.why_box_color {
+    color: rgb(255, 255, 255)
+
+}
+
+.button {
+    appearance: button;
+    background-color: #1652F0;
+    border: 1px solid #1652F0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Graphik, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    line-height: 1.15;
+    overflow: visible;
+    padding: 12px 16px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transition: all 80ms ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+  }
+
+  .button:disabled {
+    opacity: .5;
+  }
+
+  .button:focus {
+    outline: 0;
+  }
+
+  .button:hover {
+    background-color: #0A46E4;
+    border-color: #0A46E4;
+  }
+
+  .button:active {
+    background-color: #0039D7;
+    border-color: #0039D7;
+  }
+
+  .container {
+    color: rgb(255, 238, 48);
+    padding: 10px 10px 20px 300px;
+    /* display: flex; */
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+  }
+
+  .header {
+    font: bold;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    font-size: 40px;
+  }
